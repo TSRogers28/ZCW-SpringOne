@@ -61,13 +61,6 @@ To run the application, execute:
 
 
 ```
-./gradlew build && java -jar build/libs/{project_id}-0.1.0.jar
-```
-
-If you are using Maven, execute:
-
-
-```
 mvn package && java -jar target/{project_id}-0.1.0.jar
 ```
 
@@ -126,13 +119,6 @@ You will want to add a test for the endpoint you added, and Spring Test already 
 
 Add this to your build file's list of dependencies:
 
-[source,groovy]
-```
-include::complete/build.gradle[tag=tests]
-```
-
-If you are using Maven, add this to your list of dependencies:
-
 [source,xml]
 ```
 include::complete/pom.xml[tag=tests]
@@ -163,27 +149,12 @@ If you are building a web site for your business, you probably need to add some 
 
 Add this to your build file's list of dependencies:
 
-[source,groovy]
-```
-include::complete/build.gradle[tag=actuator]
-```
-
-If you are using Maven, add this to your list of dependencies:
-
 [source,xml]
 ```
 include::complete/pom.xml[tag=actuator]
 ```
 
 Then restart the app:
-
-
-```
-./gradlew build && java -jar build/libs/{project_id}-0.1.0.jar
-```
-
-If you are using Maven, execute:
-
 
 ```
 mvn package && java -jar target/{project_id}-0.1.0.jar
