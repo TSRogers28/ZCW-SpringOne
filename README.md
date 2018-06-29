@@ -5,6 +5,7 @@ a Maven build file, or a bundled up project as a zip file.
 
 ## What you'll build
 You'll build a simple web application with Spring Boot and add some useful services to it.
+For ZipCode, you need to use the Maven stuff, not gradle.
 
 ## What you'll need
 
